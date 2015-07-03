@@ -1,6 +1,6 @@
 "use strict";
 
-var hasClassNameProperty = require('captn.dom._hasClassNameProperty');
+var hasClassNameProperty = require('captn.dom._hasclassnameproperty');
 var hasClass = require('captn.dom.hasclass');
 
 /**
