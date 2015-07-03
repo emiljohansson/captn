@@ -2,5 +2,6 @@ sudo: false
 language: node_js
 node_js:
   - '0.12'
+before_install: 'node install-all-deps.js'
 script: "npm run-script coverage"
 after_script: "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
