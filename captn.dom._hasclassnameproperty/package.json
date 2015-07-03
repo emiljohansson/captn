@@ -1,0 +1,23 @@
+{
+  "name": "captn.dom._hasclassnameproperty",
+  "version": "1.0.0",
+  "description": "Validates that an element has the `className` property.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"See https://travis-ci.org/emiljohansson/captn for testing details.\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emiljohansson/captn"
+  },
+  "keywords": [
+    "dom",
+    "element"
+  ],
+  "author": "Emil Johansson <emiljohansson.se@gmail.com> (emiljohansson.se)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emiljohansson/captn/issues"
+  },
+  "homepage": "https://github.com/emiljohansson/captn"
+}
