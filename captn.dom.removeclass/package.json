@@ -1,0 +1,27 @@
+{
+  "name": "captn.dom.removeclass",
+  "version": "1.0.0",
+  "description": "Removes a class name from the element's list of class names.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"See https://travis-ci.org/emiljohansson/captn for testing details.\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emiljohansson/captn"
+  },
+  "keywords": [
+    "dom",
+    "element",
+    "class"
+  ],
+  "author": "Emil Johansson <emiljohansson.se@gmail.com> (emiljohansson.se)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emiljohansson/captn/issues"
+  },
+  "homepage": "https://github.com/emiljohansson/captn",
+  "devDependencies": {
+    "captn.dom._hasclassnameproperty": "^1.0.0"
+  }
+}
