@@ -4,7 +4,7 @@
   "description": "JavaScript library for Browserify.",
   "main": "index.js",
   "scripts": {
-    "test": "node src/test.js | tap-dot",
+    "test": "node test.js | tap-dot",
     "coverage": "node node_modules/istanbul/lib/cli.js cover test.js -x test.js",
     "coveralls": "npm run-script coverage && node node_modules/.bin/coveralls < coverage/lcov.info"
   },
@@ -20,7 +20,7 @@
     "coveralls": "^2.11.2",
     "istanbul": "^0.3.17",
     "jsdom": "^3.1.2",
-    "list-files": "^1.0.2",
+    "list-files": "^1.0.3",
     "sinon": "^1.15.4",
     "tap-dot": "^1.0.0",
     "tape": "^4.0.0"
