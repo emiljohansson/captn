@@ -2,7 +2,7 @@
 
 var test = require('tape');
 var addClass = require('./');
-var hasClass = require('captn.dom.hasClass');
+var hasClass = require('captn.dom.hasclass');
 
 test('exist', function(t) {
     t.equal(typeof hasClass, 'function');
