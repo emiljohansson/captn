@@ -1,0 +1,10 @@
+{
+	"browser": true,
+	"node": true,
+	"esnext": false,
+	"curly": true,
+	"noarg": true,
+	"undef": true,
+	"unused": "vars",
+	"strict": true
+}
