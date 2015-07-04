@@ -10,13 +10,13 @@
  * hide(el);
  *
  * el.style
- * // => display: "none";
+ * // => display: "";
  */
 function hide(element) {
     if (!element || !element.style || typeof element.style.display !== 'string') {
         return;
     }
-    element.style.display = "none";
+    element.style.display = "";
 }
 
 module.exports = hide;
